@@ -6,8 +6,6 @@ package_update: true
 package_upgrade: true
 packages:
   - curl
-  - wget
-  - net-tools
   - build-essential
   - mingw-w64
 runcmd:
@@ -22,8 +20,6 @@ runcmd:
 package_update: true
 package_upgrade: true
 packages:
-  - curl
-  - wget
   - nginx
 runcmd:
   - systemctl enable nginx
